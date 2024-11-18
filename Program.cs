@@ -48,10 +48,10 @@ if (sv)
     Console.WriteLine($"\tBelépés: {maxbelepes}");
     Console.WriteLine($"\tBér: {maxber} Ft");
 }
-else Console.WriteLine("A megadott részleg nem létezik a cégnél!");
+else Console.WriteLine("6. Feladat: A megadott részleg nem létezik a cégnél!");
 
 var f7 = dolgozok.GroupBy(v => v.Reszleg);
-Console.WriteLine($"Feladat 7: Statisztika");
+Console.WriteLine($"7. Feladat: Statisztika");
 foreach (var g in f7)
 {
     Console.WriteLine($"\t{(g.Key)} - {g.Count()} fő");
